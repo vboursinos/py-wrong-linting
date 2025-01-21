@@ -30,6 +30,8 @@ def roll_dice():
        os.system('cls' if os.name == 'nt' else 'clear')
        amount = num_die()
 
+       print(f"min_val: {min_val}")
+       print(f"max_val: {max_val}")
        if amount == '2' or amount == 'two':
            print('Rolling the dice...')
            dice_1 = random.randint(min_val, max_val)
