@@ -37,6 +37,9 @@ def roll_dice():
            dice_1 = random.randint(min_val, max_val)
            dice_2 = random.randint(min_val, max_val)
 
+
+
+           print("test sync")
            print('The values are:')
            print('Dice One: ', dice_1)
            print('Dice Two: ', dice_2)
