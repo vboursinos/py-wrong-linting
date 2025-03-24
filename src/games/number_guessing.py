@@ -29,6 +29,7 @@ def start_game():
 
     if wanna_play.lower() != 'yes':
         print('That\'s cool, Thanks!')
+        print('That\'s cool!')
         exit()
     else:
         show_score(attempts_list)
